@@ -6,13 +6,13 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  */
-package org.openhab.binding.helios.internal;
+package org.openhab.binding.helioskwl.internal;
 
 import java.util.List;
 import java.util.Map;
 
-import org.openhab.binding.helios.*;
-import org.openhab.binding.helios.internal.HeliosGenericBindingProvider.HeliosBindingConfig;
+import org.openhab.binding.helioskwl.*;
+import org.openhab.binding.helioskwl.internal.HeliosGenericBindingProvider.HeliosBindingConfig;
 import org.apache.commons.lang.StringUtils;
 import org.openhab.core.binding.AbstractActiveBinding;
 import org.openhab.core.types.Command;

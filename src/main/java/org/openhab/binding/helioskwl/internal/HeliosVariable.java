@@ -1,4 +1,4 @@
-package org.openhab.binding.helios.internal;
+package org.openhab.binding.helioskwl.internal;
 
 import org.openhab.core.types.Type;
 

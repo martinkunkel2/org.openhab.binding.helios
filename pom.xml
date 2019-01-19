@@ -9,17 +9,17 @@
 	</parent>
 
 	<properties>
-		<bundle.symbolicName>org.openhab.binding.helios</bundle.symbolicName>
-		<bundle.namespace>org.openhab.binding.helios</bundle.namespace>
-		<deb.name>openhab-addon-binding-Helios</deb.name>
+		<bundle.symbolicName>org.openhab.binding.helioskwl</bundle.symbolicName>
+		<bundle.namespace>org.openhab.binding.helioskwl</bundle.namespace>
+		<deb.name>openhab-addon-binding-HeliosKWL</deb.name>
 		<deb.description>${project.name}</deb.description>
 	</properties>
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.openhab.binding</groupId>
-	<artifactId>org.openhab.binding.helios</artifactId>
+	<artifactId>org.openhab.binding.helioskwl</artifactId>
 
-	<name>openHAB Helios Binding</name>
+	<name>openHAB Helios KWL Binding</name>
 
 	<packaging>eclipse-plugin</packaging>
 

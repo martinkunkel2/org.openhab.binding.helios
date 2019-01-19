@@ -9,12 +9,12 @@
     http://www.eclipse.org/legal/epl-v10.html
 
 -->
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.openhab.binding.helios.genericbindingprovider">
-   <implementation class="org.openhab.binding.helios.internal.HeliosGenericBindingProvider"/>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.1.0" name="org.openhab.binding.helioskwl.genericbindingprovider">
+   <implementation class="org.openhab.binding.helioskwl.internal.HeliosGenericBindingProvider"/>
    
    <service>
       <provide interface="org.openhab.model.item.binding.BindingConfigReader"/>
-      <provide interface="org.openhab.binding.helios.HeliosBindingProvider"/>
+      <provide interface="org.openhab.binding.helioskwl.HeliosBindingProvider"/>
    </service>
    
 </scr:component>

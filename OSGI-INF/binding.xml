@@ -9,8 +9,8 @@
     http://www.eclipse.org/legal/epl-v10.html
 
 -->
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.2.0" activate="activate" modified="modified" deactivate="deactivate" name="org.openhab.binding.helios.binding" immediate="true" configuration-pid="org.openhab.helios" configuration-policy="require">
-	<implementation class="org.openhab.binding.helios.internal.HeliosBinding" />
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.2.0" activate="activate" modified="modified" deactivate="deactivate" name="org.openhab.binding.helioskwl.binding" immediate="true" configuration-pid="org.openhab.helios" configuration-policy="require">
+	<implementation class="org.openhab.binding.helioskwl.internal.HeliosBinding" />
 
 	<service>
 		<provide interface="org.osgi.service.event.EventHandler" />
@@ -22,7 +22,7 @@
 		interface="org.openhab.core.events.EventPublisher" name="EventPublisher"
 		policy="dynamic" unbind="unsetEventPublisher" />
 	<reference bind="addBindingProvider" cardinality="1..n"
-		interface="org.openhab.binding.helios.HeliosBindingProvider" name="HeliosBindingProvider"
+		interface="org.openhab.binding.helioskwl.HeliosBindingProvider" name="HeliosBindingProvider"
 		policy="dynamic" unbind="removeBindingProvider" />
 	
 </scr:component>

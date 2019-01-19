@@ -1,4 +1,4 @@
-package org.openhab.binding.helios.internal;
+package org.openhab.binding.helioskwl.internal;
 
 import com.ghgande.j2mod.modbus.io.ModbusTCPTransaction;
 import com.ghgande.j2mod.modbus.io.ModbusTCPTransport;

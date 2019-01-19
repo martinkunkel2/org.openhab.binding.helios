@@ -6,9 +6,9 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  */
-package org.openhab.binding.helios;
+package org.openhab.binding.helioskwl;
 
-import org.openhab.binding.helios.internal.HeliosGenericBindingProvider.HeliosBindingConfig;
+import org.openhab.binding.helioskwl.internal.HeliosGenericBindingProvider.HeliosBindingConfig;
 import org.openhab.core.binding.BindingProvider;
 
 /**

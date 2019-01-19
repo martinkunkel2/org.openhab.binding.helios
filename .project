@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>org.openhab.binding.helios</name>
-	<comment>This is the Helios binding of the open Home Automation Bus (openHAB)</comment>
+	<name>org.openhab.binding.helioskwl</name>
+	<comment>This is the Helios KWL binding of the open Home Automation Bus (openHAB)</comment>
 	<projects>
 	</projects>
 	<buildSpec>
